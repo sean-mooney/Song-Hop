@@ -33,7 +33,7 @@
 
 /* Discover page stylings */
 .discover-page {
-
+  background: url('../img/splash-bkg.jpg');
 }
 
 .discover-page .current-song {
@@ -42,8 +42,8 @@
   transform: scale(1);
   opacity: 1;
 
-  -webkit-transition:all cubic-bezier(0.420, 0.000, 1.000, 1.000) 0.1s;
-  transition:all cubic-bezier(0.420, 0.000, 1.000, 1.000) 0.1s;
+  -webkit-transition:all cubic-bezier(0.420, 0.000, 1.000, 1.000) 0.2s;
+  transition:all cubic-bezier(0.420, 0.000, 1.000, 1.000) 0.2s;
 }
 
 .discover-page .current-song .item-image {
